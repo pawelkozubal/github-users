@@ -5,14 +5,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <div> 
-
+    <AuthWrapper>
       <Router>
         <Switch>
-
-        
-      <Route path='/' exact={true}>
+      <PrivateRoute path='/' exact={true}>
         <Dashboard></Dashboard>
-      </Route>
+      </PrivateRoute>
       <Route path='/login'>
         <Login />
       </Route>
@@ -23,7 +21,7 @@ function App() {
       
       </Switch>
       </Router>
-      
+    </AuthWrapper>
     </div>
   );
 }

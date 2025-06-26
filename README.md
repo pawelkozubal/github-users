@@ -92,7 +92,7 @@ Developing GitHub Comunity presented specific technical challenges that required
 
 Explore the functionality of GitHub Comunity through these screenshots!
 
-### Add Job Page
+### Full webpage
 ![Jobify Add Job Screenshot](./public/github.png)
 
 ---
